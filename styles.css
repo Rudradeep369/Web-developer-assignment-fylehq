@@ -1,0 +1,159 @@
+.form-check-input:not(:checked) {
+    border-color: rgb(255, 49, 71) !important;
+}
+
+.form-check-input:checked {
+    border-color: rgb(255, 49, 71) !important;
+    background-color: rgb(255, 49, 71) !important;
+}
+
+.custom-button {
+    background-color: rgb(255, 49, 71);
+    border-color: rgb(255, 49, 71);
+}
+
+.custom-button:hover {
+    background-color: rgb(255, 69, 91);
+    border-color: rgb(255, 69, 91);
+}
+
+.custom-header {
+    color: rgb(255, 49, 71);
+}
+
+.body_1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.cover {
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+/* Second Half */
+
+.slick-carousel {
+    margin: 0 -10px;
+}
+
+.card-slide {
+    position: relative;
+    padding: 0 5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(237, 65, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.card-slide:hover .overlay {
+    opacity: 1;
+}
+
+.inside_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-read-more {
+    background-color: #fff;
+    color: rgb(253, 75, 94);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-read-more img {
+    margin-left: 5px;
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.slick-dots {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'slick';
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: rgb(255, 49, 71);
+}
+
+
+/* Second Half END */
+
+/* fourth HAlf */
+.custom-color-box:hover {
+    background-color: rgb(255, 69, 91);
+    color: white;
+}
+/* fourth HAlf */
+
+/* fifth */
+.card-Hover:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* fifth END */
+
+/* Footer */
+.footer {
+    position: relative;
+}
+
+.footer-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+.footer-img {
+    display: block;
+    width: 100%;
+}
+
+.overlay-img {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+}
+/* footer END */
