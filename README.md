@@ -24,7 +24,9 @@ Open index.html in your web browser.
 
 # Usage
 Contact Form: Fill out the form and click "Contact Us" to send a message.
+
 Image Carousel: Use the carousel to navigate through different service highlights.
+
 Dynamic Project Section: Click on different project descriptions to change the main image.
 
 # Contact
